@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    tools:context="ru.gurucode.wmoney.RootActivity">
+
+    <!--ext:chip_background="@drawable/background"-->
+    <!--ext:full_email="false"-->
+    <ru.gurucode.emailtextview.EmailTextView
+        android:id="@+id/emailtv"
+        android:inputType="textMultiLine"
+        android:text="привет это oblomov@mail.ru."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp">
+    </ru.gurucode.emailtextview.EmailTextView>
+
+</android.support.constraint.ConstraintLayout>
