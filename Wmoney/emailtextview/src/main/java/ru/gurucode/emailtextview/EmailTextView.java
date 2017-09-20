@@ -76,6 +76,10 @@ public class EmailTextView extends android.support.v7.widget.AppCompatTextView {
         this.setMovementMethod(LinkMovementMethod.getInstance());
         mContext = new WeakReference<>(context);
 
+        if(mCurrentText.isEmpty()){
+            mCurrentText = "тестовое задание oblomov@mail.ru";
+        }
+
         findEmails(mCurrentText);
         downloadAvatars();
     }
